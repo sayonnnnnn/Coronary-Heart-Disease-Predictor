@@ -4,7 +4,6 @@ import pickle
 # import pandas as pd
 
 st.title('Coronary Heart Disease Predictor')
-st.subheader('Official AI ML Project Submission by Tarang Shivraj Jaiswal')
 
 x_test = []
 with st.form(key='my_form'):
