@@ -2,6 +2,12 @@ import streamlit as st
 import pickle 
 # from sklearn.metrics import accuracy_score
 # import pandas as pd
+st.set_page_config (
+    page_title="Coronary Heart Disease Predictor",
+    page_icon="random",
+    layout="wide",
+    initial_sidebar_state="collapsed"
+)
 
 st.title('Coronary Heart Disease Predictor')
 
