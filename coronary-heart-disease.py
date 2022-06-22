@@ -5,7 +5,7 @@ import pickle
 st.set_page_config (
     page_title="Coronary Heart Disease Predictor",
     page_icon="random",
-    layout="wide",
+    layout="centered",
     initial_sidebar_state="collapsed"
 )
 
